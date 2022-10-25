@@ -2,4 +2,4 @@
 
 1. Describe how parallelism differs from concurrency?
 
-Too lazy do later
+Too lazy do later, code now, answers later.
