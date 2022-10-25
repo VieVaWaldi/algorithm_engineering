@@ -4,12 +4,17 @@
 
 using namespace std;
 
-// threads brauchen unterschiedliche seeds, nimm dafür evtl deren index
-// try optimization with -0fast flag
-
 void pi_monte_carlo_sequential();
 void pi_monte_carlo_parallel();
 
+/*
+    Assignment 1 - Monte Carlo PI
+    - Code is split in 2 methods for easy comparison
+    - (@pi_monte_carlo_sequential) as provided in the slides
+    - (@pi_monte_carlo_parallel) as a submition for the prallelized version
+    - Seed was changed using thread_id
+    - Counter was written to with atomic access
+*/
 int main()
 {
     double start_time = omp_get_wtime(); // wall clock time in seconds
