@@ -15,7 +15,7 @@ int main()
     cout << " with runTime sequential: " << run_time << " seconds\n";
 
     start_time = omp_get_wtime(); // wall clock time in seconds
-    integral_pi_sequential();
+    integral_pi_parallel();
     run_time = omp_get_wtime() - start_time;
     cout << " with runTime parallel: " << run_time << " seconds\n";
 }
@@ -43,7 +43,7 @@ void integral_pi_parallel()
     double width = 1.0 / double(num_steps); // width of a rectangle
     double sum = 0.0;                       // for summing up all heights of rectangles
 
-    omp_set_num_threads(4);                      // setting the desired number of threads in the parallel region
+    omp_set_num_threads(8);                      // setting the desired number of threads in the parallel region
 #pragma omp parallel                             // parallel region starts here
     {                                            // idea for parallelisation: split up loop iterations between threads
         int num_threads = omp_get_num_threads(); // used as increment in for loop
