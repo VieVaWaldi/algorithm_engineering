@@ -67,9 +67,9 @@ void pi_monte_carlo_parallel()
             auto x = zero_to_one(re); // generate random number between 0.0 and 1.0
             auto y = zero_to_one(re); // generate random number between 0.0 and 1.0
 
-#pragma omp atomic
             if (x * x + y * y <= 1.0)
             { // if the point lies in the first quadrant of a unit circle
+#pragma omp atomic
                 ++counter;
             }
         }
