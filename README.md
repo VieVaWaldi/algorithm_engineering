@@ -9,3 +9,8 @@ From Walter Ehrenberger
 3. `/project_paper `, contains the project paper.
 
 Each subfolder contains a README for further explanations.
+
+ToDo:
+
+* Verify portability of the code!
+* Verify code and answers before you submit!

@@ -9,7 +9,7 @@ std::mutex m;
 
 /**
  * @brief Coding Warump 2.1 Fix  the race condition bug on slide 13,
- * using std::mutex.
+ * using std::mutex. Solution is to surround pi with a mutex lock.
  */
 int main()
 {
@@ -29,9 +29,9 @@ int main()
             double x = (i + 0.5) * width;                  // midpoint
             sum_local = sum_local + (1.0 / (1.0 + x * x)); // add new height
         }
-//        m.lock();
+        m.lock();
         pi += sum_local * 4 * width;
-//        m.unlock();
+        m.unlock();
     }
 
     cout << "PI with #" << num_steps << " steps is " << setprecision(17)
