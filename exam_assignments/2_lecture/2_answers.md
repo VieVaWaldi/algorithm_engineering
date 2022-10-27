@@ -20,5 +20,8 @@
 
 5.1 How `std::atomic::compare_exchange_weak` works:
 
-   * ...
+    * ...
 
+5.2 What schedule produces the pattern on slide 18:
+
+    * Should be achievable with `static` and `dynamic`, however in this case the `chunk_size` is too big. 
