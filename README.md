@@ -2,6 +2,13 @@
 
 From Walter Ehrenberger
 
+### ToDo:
+
+* Verify portability of the code!
+* Verify code and answers before you submit!
+* Test if openmp works now locally
+
+
 ### Structure
 
 1. `/exam_assignments`, includes one folder for each exam assignment.
@@ -9,8 +16,3 @@ From Walter Ehrenberger
 3. `/project_paper `, contains the project paper.
 
 Each subfolder contains a README for further explanations.
-
-ToDo:
-
-* Verify portability of the code!
-* Verify code and answers before you submit!
