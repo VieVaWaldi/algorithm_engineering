@@ -24,4 +24,4 @@
 
     * ...
 
-7. Warmup and pseudo code in ./warmup and ./assignment.
+7. Warmup and pseudo code in `/warmup` and `/assignment`.

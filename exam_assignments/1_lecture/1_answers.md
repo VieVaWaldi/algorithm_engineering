@@ -2,7 +2,6 @@
 
 1. Describe how parallelism differs from concurrency?
 
-
     * Concurrency: Multiple tasks that can start, run and finish at overlapping times. They do not need a specific order. 
     * Parallelism: Multiple tasks that run at the exact same time on Hardware with multiple resources, e.g. multiple cores. 
     * Parallelism is a subset of Concurrency.
