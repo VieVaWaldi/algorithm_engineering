@@ -7,6 +7,7 @@ From Walter Ehrenberger
 * Verify portability of the code!
 * Verify code and answers before you submit!
 * Test if openmp works now locally
+* N_answer.md to PDF please.
 
 
 ### Structure
