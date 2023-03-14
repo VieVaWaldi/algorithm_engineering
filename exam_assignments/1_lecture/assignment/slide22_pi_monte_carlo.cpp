@@ -33,7 +33,7 @@ void pi_monte_carlo_sequential()
     int n = 100000000; // amount of points to generate
     int counter = 0;   // counter for points in the first quarter of a unit circle
 
-    int seed = 0;
+    const int seed = 0;
     default_random_engine re{seed};
     uniform_real_distribution<double> zero_to_one{0.0, 1.0};
 
@@ -60,8 +60,8 @@ void pi_monte_carlo_parallel()
     omp_set_num_threads(8); // setting the desired number of threads in the parallel region
 #pragma omp parallel        // parallel region starts here
     {
-        int num_threads = omp_get_num_threads();
-        int thread_id = omp_get_thread_num();
+        const int num_threads = omp_get_num_threads();
+        const int thread_id = omp_get_thread_num();
 
         default_random_engine re{thread_id};
         uniform_real_distribution<double> zero_to_one{0.0, 1.0};

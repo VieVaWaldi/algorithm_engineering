@@ -11,7 +11,7 @@ From Walter Ehrenberger
 
 ### Structure
 
-1. `/exam_assignments`, includes one folder for each exam assignment.
+1. `/exam_assignments`, includes the exam assignments.
 2. `/project `, contains the project.
 3. `/project_paper `, contains the project paper.
 
@@ -20,7 +20,15 @@ Each subfolder contains a README for further explanations.
 ### Progress
 
 - [x] Assignment 1
-- [ ] Assignment 2
-- [ ] Assignment 3
+- [x] Assignment 2
+- [x] Assignment 3
 - [ ] Assignment 4
-- [ ] Assignment 5
+- [x] Assignment 5
+- [x] Assignment 6
+- [x] Assignment 7
+- [x] Assignment 8
+- [x] Assignment 9
+- [x] Assignment 10
+- [x] Assignment 11
+- [x] Assignment 12
+- [x] Assignment 13
