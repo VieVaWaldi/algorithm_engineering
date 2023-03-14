@@ -2,13 +2,6 @@
 
 From Walter Ehrenberger
 
-### ToDo:
-
-* Verify portability of the code!
-* Verify code and answers before you submit!
-* Test if openmp works now locally
-* N_answer.md to PDF please.
-
 ### Structure
 
 1. `/exam_assignments`, includes the exam assignments.
@@ -21,8 +14,8 @@ Each subfolder contains a README for further explanations.
 
 - [x] Assignment 1
 - [x] Assignment 2
-- [x] Assignment 3
-- [ ] Assignment 4
+- [ ] Assignment 3, coding assignment missing
+- [ ] Assignment 4, coding assignment missing
 - [x] Assignment 5
 - [x] Assignment 6
 - [x] Assignment 7

@@ -36,4 +36,4 @@
     * The first-private modifier creates a true copy (initialized and with the original value) of variable x for each thread.
     <br>
 
-7. **Warmup and pseudo code in `/warmup` and `/assignment`.**
+7. **Warmup and pseudo code in `/3_lecture/warmup` and `/3_lecture/assignment`.**

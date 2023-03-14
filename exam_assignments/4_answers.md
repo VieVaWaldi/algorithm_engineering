@@ -16,12 +16,6 @@ parallelized with tasks in OpenMP.**
     * Hierbei handelt es sich darum mehrere Threads auf einer einzelnen CPU laufen zu lassen. Dabei werden spezifische Probleme eines Algorithmus auf individuelle sub-threads ausgelagert welche parallel zueinander laufen.
     <br>
 
-4. **Warmup for slide 17 in `/warmup`.**
+4. **Read What every systems programmer should know about concurrency: https://assets.bitbashing.io/papers/concurrencyprimer.pdf Discuss two things you find particularly interesting.**
 
-    <br>
-
-5. **Read What every systems programmer should know about
-concurrency: https://assets.bitbashing.io/papers/concurrencyprimer.pdf
-Discuss two things you find particularly interesting.**
-
-    *
+    * I get a 404 Page Not Found.

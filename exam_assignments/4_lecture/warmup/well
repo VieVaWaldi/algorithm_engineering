@@ -1,9 +1,0 @@
-Warmup
-
-1. Try to speed up the naive merge sort implementation
-on page 7.
-
-2. On page 15 you have become acquainted with
-multithreaded merging. On page 18 is an actual
-singlethreaded implementation of the algorithm.
-Parallelize the singlethreaded implementation with tasks.

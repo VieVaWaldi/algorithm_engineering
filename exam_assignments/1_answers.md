@@ -42,5 +42,5 @@
         * Compiler otimization. Probably to a lesser extent, because the compilers are already very advanced.
     <br>
 
-5. **Code: In the folders `/warmup` and `/assignment`.**
+5. **Code: In the folders `/1_lecture/warmup` and `/1_lecture/assignment`.**
 

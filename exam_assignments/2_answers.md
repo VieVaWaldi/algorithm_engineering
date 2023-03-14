@@ -26,7 +26,7 @@
     * One possibility is to run empty iterations once a solution is found. There are also cancellation points provided by OMP.
     <br>
 
-5. **Code: In the folder `/warmup`.**
+5. **Code: In the folder `/lecture_2/warmup`.**
 
 * How `std::atomic::compare_exchange_weak` works:
 
@@ -34,7 +34,7 @@
     * It is weak because spurious failures (e.g. random hardware failures) are ignored, for performance gain.
     <br>
 
-6. **Code: In the folder `/assignment`.**
+6. **Code: In the folder `/lecture_2/assignment`.**
 
 * What schedule produces the pattern on slide 18:
 
