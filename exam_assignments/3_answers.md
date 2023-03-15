@@ -25,9 +25,9 @@
 
 5. **Differences between:**
 
-    * 1) ´omp_get_num_threads()´: Returns the number of threads in the current time within the inner most region. If we are in a sequential region, returns 1. Can be changed with set_num_threads(n).
-    * 2) ´omp_get_num_procs()´: Returns number of processors that are available to the device. Should be always the same on one computer.
-    * 3) ´omp_get_max_threads()´: Returns the upper bound of available threads that can be used for a parallel region.
+    1. ´´´omp_get_num_threads()´´´: Returns the number of threads in the current time within the inner most region. If we are in a sequential region, returns 1. Can be changed with set_num_threads(n).
+    2. ´´´omp_get_num_procs()´´´: Returns number of processors that are available to the device. Should be always the same on one computer.
+    3. ´´´omp_get_max_threads()´´´: Returns the upper bound of available threads that can be used for a parallel region.
     <br>
 
 6. **Clarify how storage attribute private and first private differ from each other:**

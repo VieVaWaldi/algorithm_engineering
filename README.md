@@ -14,8 +14,8 @@ Each subfolder contains a README for further explanations.
 
 - [x] Assignment 1
 - [x] Assignment 2
-- [ ] Assignment 3, coding assignment missing
-- [ ] Assignment 4, coding assignment missing
+- [x] Assignment 3
+- [x] Assignment 4
 - [x] Assignment 5
 - [x] Assignment 6
 - [x] Assignment 7

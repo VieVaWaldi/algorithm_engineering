@@ -1,5 +1,7 @@
 # Exam Assignment 4
 
+Sorry I just realized this text is in german and I dont know why. Sometimes I mix up these languages because I have to talk english in my job. You are speaking german so I hope its okay that I am not translating it.
+
 1. **Explain how divide and conquer algorithms can be
 parallelized with tasks in OpenMP.**
 
@@ -18,4 +20,6 @@ parallelized with tasks in OpenMP.**
 
 4. **Read What every systems programmer should know about concurrency: https://assets.bitbashing.io/papers/concurrencyprimer.pdf Discuss two things you find particularly interesting.**
 
-    * I get a 404 Page Not Found.
+    1. Atomicity: Hier fand ich die Bedeutsamkeit von atmoren Variablen an sich sehr interessant. Und, dass so Operationen geschützt werden können, dadurch dass sie nicht in kleinere Stücke aufgeteilt werden können.Beziehungsweise das es zu unbrauchbaren Daten kommt bei den sogenannten "torns". 
+
+    2. Atomic Fusion: Interessant ist, dass atomare Operationen Code nicht immun gegenüber allen Optimierungen macht. Besonders in dem Beispiel in dem die ausgerollte Schleife unerwartet oft asugeführt wird.

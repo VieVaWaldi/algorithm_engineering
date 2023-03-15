@@ -2,15 +2,15 @@
 
 1. **Explain the naming conventions for intrinsic functions. (_<vector_size>_<operation>_<suffix>)**
 
-    * **<vector_size>:** Refers to the size of the SIMD vector, expressed in bits or bytes.
-    * **<operation>:** Refers to the operation that the intrinsic function performs (eg add or substract).
-    * **<suffix>:** Refers to information about the data type of the operations arguments.
+    * **vector_size:** Refers to the size of the SIMD vector, expressed in bits or bytes.
+    * **operation:** Refers to the operation that the intrinsic function performs (eg add or substract).
+    * **suffix:** Refers to information about the data type of the operations arguments.
     <br>
 
 2. **What do the metrics latency and throughput tell you about the performance of an intrinsic function?**
 
-    * **<latency>:** This can be used to measure the performance of a single instruction by providing the number of cycles.
-    * **<throughput>:** This refers to the amount of work that can be completed per unit of time, by providing the number of cycles it takes for the next instrinsic to start. 
+    * **latency:** This can be used to measure the performance of a single instruction by providing the number of cycles.
+    * **throughput:** This refers to the amount of work that can be completed per unit of time, by providing the number of cycles it takes for the next instrinsic to start. 
     <br>
 
 3. **How do modern processors realize instruction-level parallelism?**

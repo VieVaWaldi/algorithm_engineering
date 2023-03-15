@@ -2,7 +2,7 @@
 
 1. **How do bandwidth-bound computations differ from compute-bound computations?**
 
-    * Bandwidth-bound computations are those in which the amount of data that needs to be transferred between memory and the processor is the main bottleneck, while the computation itself is relatively simple. C
+    * Bandwidth-bound computations are those in which the amount of data that needs to be transferred between memory and the processor is the main bottleneck, while the computation itself is relatively simple.
     * Compute-bound computations are those in which the main bottleneck is the processing power of the processor, and the amount of data transfer is relatively small.
     <br>
 
